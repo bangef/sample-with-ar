@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Banner from "../components/Banner";
-import Layout from "../components/Layout";
-import SubHeader from "../components/SubHeader";
+import Banner from "../components/banner";
+import Layout from "../components/layout";
+import SubHeader from "../components/subHeader";
 import CONTENT from "../utils/content";
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";

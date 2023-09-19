@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Beranda from "./pages/Beranda";
-import InfoWisata from "./pages/InfoWisata";
-import Galeri from "./pages/Galeri";
-import TentangKami from "./pages/TentangKami";
+import Beranda from "./pages/beranda";
+import InfoWisata from "./pages/infoWisata";
+import Galeri from "./pages/galeri";
+import TentangKami from "./pages/tentangKami";
 
 function App() {
 	return (

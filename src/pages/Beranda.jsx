@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import Banner from "../components/Banner";
-import BerandaSection from "../components/BerandaSection";
-import Layout from "../components/Layout";
+import Banner from "../components/banner";
+import BerandaSection from "../components/berandaSection";
+import Layout from "../components/layout";
 import CONTENT from "../utils/content";
 
 function Beranda() {
