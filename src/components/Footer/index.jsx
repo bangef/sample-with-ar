@@ -1,7 +1,7 @@
 import CONTENT from "../../utils/content";
 import Divider from "../Divider";
 import { tw } from "../../utils/common";
-import { FooterSocialMedia } from "./Footer-socialmedia";
+import { FooterSocialMedia } from "./footer-socialmedia";
 import { FooterLinks } from "./footer-links";
 function Footer() {
 	return (

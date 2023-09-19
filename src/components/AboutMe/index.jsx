@@ -1,7 +1,7 @@
 import { PropTypes } from "prop-types";
 import { tw } from "../../utils/common";
-import AboutmeContentDescribe from "./aboutme-content-describe";
-import AboutmeImage from "./aboutme-image";
+import AboutmeImage from "./AboutmeImage";
+import AboutmeContentDescribe from "./AboutmeContent";
 
 const AboutMe = (props) => {
 	return (
