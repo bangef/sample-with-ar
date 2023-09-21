@@ -1,9 +1,9 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import Beranda from "./pages/beranda";
-import InfoWisata from "./pages/infoWisata";
-import Galeri from "./pages/galeri";
-import TentangKami from "./pages/tentangKami";
-import InfoWisataDetail from "./pages/infoWisataDetail";
+import Beranda from "./pages/Beranda";
+import InfoWisata from "./pages/InfoWisata";
+import Galeri from "./pages/Galeri";
+import TentangKami from "./pages/TentangKami";
+import InfoWisataDetail from "./pages/InfoWisataDetail";
 import { useEffect } from "react";
 function App() {
 	const { pathname } = useLocation();
