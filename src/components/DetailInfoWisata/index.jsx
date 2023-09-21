@@ -1,8 +1,7 @@
-// import StarsReview from "../starsReview";
 import DetailInfoWisataRatting from "./detailinfowisata-ratting";
-import { PropTypes } from "prop-types";
-import StarsReview from "../starsReview";
 import DetailInfoWisataMaps from "./detailinfowisata-map";
+import StarsReview from "../StarsReview";
+import { PropTypes } from "prop-types";
 import { tw } from "../../utils/common";
 
 const DetailInfoWisata = (props) => {
