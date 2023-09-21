@@ -1,9 +1,10 @@
-// import StarsReview from "../starsReview";
 import DetailInfoWisataRatting from "./detailinfowisata-ratting";
 import { PropTypes } from "prop-types";
 import StarsReview from "../starsReview";
 import DetailInfoWisataMaps from "./detailinfowisata-map";
 import { tw } from "../../utils/common";
+import PopoverComp from "../PopoverComp";
+import DetailInfoWisataFasilitas from "./detailinfowisata-fasilitas";
 
 const DetailInfoWisata = (props) => {
 	return (
@@ -20,6 +21,10 @@ const DetailInfoWisata = (props) => {
 								className="flex flex-col items-center gap-2"
 							/>
 						)}
+						<PopoverComp
+							namaTempat={props.dataDetail.nama}
+							jamOprasional={props.dataDetail.jamOprasional}
+						/>
 					</div>
 					<div>
 						<h1 className="mb-4 text-3xl font-bold text-white sm:hidden">
@@ -30,6 +35,7 @@ const DetailInfoWisata = (props) => {
 						</p>
 					</div>
 				</div>
+				<DetailInfoWisataFasilitas className="mb-12" />
 				<DetailInfoWisataRatting
 					ulasan={props.dataDetail.ulasan}
 					className="mb-12"
