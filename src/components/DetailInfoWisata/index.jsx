@@ -1,6 +1,6 @@
 import DetailInfoWisataRatting from "./detailinfowisata-ratting";
 import { PropTypes } from "prop-types";
-import StarsReview from "../starsReview";
+import StarsReview from "../StarsReview";
 import DetailInfoWisataMaps from "./detailinfowisata-map";
 import { tw } from "../../utils/common";
 import PopoverComp from "../PopoverComp";
