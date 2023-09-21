@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import AboutMe from "../components/aboutMe";
-import Banner from "../components/banner";
-import Layout from "../components/layout";
-import SubHeader from "../components/subHeader";
+import AboutMe from "../components/AboutMe";
+import Banner from "../components/Banner";
+import Layout from "../components/Layout";
+import SubHeader from "../components/SubHeader";
 import CONTENT from "../utils/content";
 
 function TentangKami() {

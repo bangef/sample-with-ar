@@ -1,5 +1,5 @@
 import CONTENT from "../../utils/content";
-import Card from "../card";
+import Card from "../Card";
 
 const Cards = () => {
 	return (
