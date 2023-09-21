@@ -19,7 +19,7 @@ const HeaderHumbBtn = (props) => {
 
 HeaderHumbBtn.propTypes = {
 	isOpen: PropTypes.bool,
-	setIsOpen: PropTypes.array,
+	setIsOpen: PropTypes.func,
 };
 
 export default HeaderHumbBtn;

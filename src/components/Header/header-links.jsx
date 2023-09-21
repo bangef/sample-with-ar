@@ -1,5 +1,5 @@
 import CONTENT from "../../utils/content";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { tw } from "../../utils/common";
 import PropTypes from "prop-types";
 
@@ -21,9 +21,17 @@ const HeaderLinks = (props) => {
 							"hover:text-secondary50 hover:transition hover:delay-75 hover:ease-linear hover:cursor-pointer"
 						)}
 					>
-						<Link to={e.path} className={tw("py-2 block")}>
+						<NavLink
+							to={e.path}
+							className="block py-2"
+							style={({ isActive }) => {
+								return {
+									color: isActive ? "#F7C35F" : "",
+								};
+							}}
+						>
 							{e.title}
-						</Link>
+						</NavLink>
 						<span className="absolute left-0 w-0 h-1 transition-all bg-secondary50 -bottom-1 group-hover:w-full"></span>
 					</li>
 				);

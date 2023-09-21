@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import Layout from "../components/layout";
 import CONTENT from "../utils/content";
+import Banner from "../components/banner";
+import Cards from "../components/Cards";
+import SubHeader from "../components/subHeader";
 
 function InfoWisata() {
 	useEffect(() => {
@@ -8,9 +11,9 @@ function InfoWisata() {
 	}, []);
 	return (
 		<Layout>
-			<h1 className="text-2xl text-white font-poppins">
-				Main Content | Info Wisata
-			</h1>
+			<SubHeader menu="Info Wisata" />
+			<Cards />
+			<Banner />
 		</Layout>
 	);
 }

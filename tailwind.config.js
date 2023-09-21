@@ -8,6 +8,7 @@ export default {
 				primary100: "#678551",
 				primary150: "#344C31",
 				primary200: "#263C28",
+				primary250: "#2D442F",
 				secondary50: "#F7C35F",
 			},
 			fontFamily: {
