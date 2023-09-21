@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import CONTENT from "../utils/content";
-import Banner from "../components/Banner";
-import SubHeader from "../components/SubHeader";
+import Banner from "../components/banner";
+import SubHeader from "../components/subHeader";
 import { useParams } from "react-router-dom";
-import DetailInfoWisata from "../components/DetailInfoWisata";
+import DetailInfoWisata from "../components/detailInfoWisata";
 
 function InfoWisataDetail() {
 	const [data, setData] = useState({});

@@ -1,5 +1,5 @@
 import CONTENT from "../../utils/content";
-import Divider from "../Divider";
+import Divider from "../divider";
 import { tw } from "../../utils/common";
 import { FooterSocialMedia } from "./footer-socialmedia";
 import { FooterLinks } from "./footer-links";
