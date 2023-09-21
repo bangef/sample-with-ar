@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { PropTypes } from "prop-types";
 import { tw } from "../../utils/common";
-import StarsReview from "../StarsReview";
+import StarsReview from "../starsReview";
 
 const Card = (props) => {
 	return (

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Layout from "../components/layout";
 import CONTENT from "../utils/content";
 import Banner from "../components/banner";
-import Cards from "../components/Cards";
+import Cards from "../components/cards";
 import SubHeader from "../components/subHeader";
 
 function InfoWisata() {
