@@ -10,6 +10,11 @@ export default {
 				primary200: "#263C28",
 				primary250: "#2D442F",
 				secondary50: "#F7C35F",
+				btnRed50: "#FF4B64",
+				btnRed100: "#F03442",
+				btnCream50: "#FFEBC6",
+				btnCream100: "#FDDDA0",
+				btnBorder: "#5B2815",
 			},
 			fontFamily: {
 				poppins: ["Poppins", "sans-serif"],

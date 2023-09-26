@@ -35,7 +35,10 @@ const DetailInfoWisata = (props) => {
 						</p>
 					</div>
 				</div>
-				<DetailInfoWisataFasilitas className="mb-12" />
+				<DetailInfoWisataFasilitas
+					className="mb-12"
+					fasilitas={props.dataDetail.fasilitas}
+				/>
 				<DetailInfoWisataRatting
 					ulasan={props.dataDetail.ulasan}
 					className="mb-12"

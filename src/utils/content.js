@@ -7,6 +7,7 @@ import SosmedYt from "../assets/sosmed-youtube.svg";
  */
 const CONTENT = {
 	title: "LBAR - Tugu Kujang Bogor",
+	arlink: "https://facebook.com/ficrihnp",
 	header: {
 		headerMenu: [
 			{
@@ -64,6 +65,14 @@ const CONTENT = {
 					{ hari: "Sabtu", jam: "09:00 - 17:00" },
 					{ hari: "Minggu", jam: "09:00 - 17:00" },
 				],
+				fasilitas: [
+					"toilet",
+					"trash",
+					"difable",
+					"greenhouse",
+					"mosque",
+					"foodcourt",
+				],
 			},
 			{
 				poster:
@@ -103,6 +112,7 @@ const CONTENT = {
 					{ hari: "Sabtu", jam: "09:00 - 17:00" },
 					{ hari: "Minggu", jam: "09:00 - 17:00" },
 				],
+				fasilitas: ["toilet", "trash", "greenhouse", "mosque", "foodcourt"],
 			},
 			{
 				poster: "",
@@ -141,6 +151,7 @@ const CONTENT = {
 					{ hari: "Sabtu", jam: "09:00 - 17:00" },
 					{ hari: "Minggu", jam: "09:00 - 17:00" },
 				],
+				fasilitas: ["trash", "greenhouse", "mosque", "foodcourt"],
 			},
 			{
 				poster: "",
@@ -179,6 +190,7 @@ const CONTENT = {
 					{ hari: "Sabtu", jam: "09:00 - 17:00" },
 					{ hari: "Minggu", jam: "09:00 - 17:00" },
 				],
+				fasilitas: ["trash", "mosque", "foodcourt"],
 			},
 			{
 				poster: "",
@@ -217,6 +229,7 @@ const CONTENT = {
 					{ hari: "Sabtu", jam: "09:00 - 17:00" },
 					{ hari: "Minggu", jam: "09:00 - 17:00" },
 				],
+				fasilitas: ["trash", "mosque"],
 			},
 		],
 	},
