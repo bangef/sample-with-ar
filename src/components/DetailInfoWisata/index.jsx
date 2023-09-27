@@ -21,10 +21,12 @@ const DetailInfoWisata = (props) => {
 								className="flex flex-col items-center gap-2"
 							/>
 						)}
-						<PopoverComp
-							namaTempat={props.dataDetail.nama}
-							jamOprasional={props.dataDetail.jamOprasional}
-						/>
+						{props.dataDetail.jamOprasional && (
+							<PopoverComp
+								namaTempat={props.dataDetail.nama}
+								jamOprasional={props.dataDetail.jamOprasional}
+							/>
+						)}
 					</div>
 					<div>
 						<h1 className="mb-4 text-3xl font-bold text-white sm:hidden">

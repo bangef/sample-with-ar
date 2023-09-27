@@ -11,11 +11,12 @@ const AboutmeImage = (props) => {
 					alt={props.dataImage.alt}
 					width={200}
 					height={250}
-					placeholderSrc={"https://picsum.photos/50/150/?blur=2"}
+					placeholderSrc={props.dataImage.thumb}
+					className="rounded-xl h-[250px] w-[200px]"
 				/>
 				<div
 					className={tw(
-						"w-[20px] h-[150px] bg-secondary50 rounded-sm absolute bottom-10 z-0",
+						"w-[20px] h-[150px] bg-secondary50 rounded-sm absolute bottom-14 -z-10",
 						`${positionAccentEl2(props.dataImage.accentElement)}`
 					)}
 				></div>
@@ -24,7 +25,7 @@ const AboutmeImage = (props) => {
 						"w-[180px] h-[80px]  bg-primary50 rounded-xl absolute -bottom-10 z-20 left-2 flex justify-center items-center"
 					)}
 				>
-					<p className="text-center text-secondary50 font-fasthand text-[14px] px-4">
+					<p className="text-center text-primary150 font-fasthand text-[14px] px-4">
 						{props.dataImage.quote}
 					</p>
 				</div>
@@ -36,10 +37,11 @@ const AboutmeImage = (props) => {
 const positionAccentEl2 = (props) => {
 	switch (props) {
 		case "tr":
-			return "-left-4";
+			return "-left-3";
 		case "tl":
+			return "-right-3";
 		default:
-			return "-right-4";
+			return "-right-3";
 	}
 };
 

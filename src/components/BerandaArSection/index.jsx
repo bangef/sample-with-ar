@@ -1,6 +1,8 @@
 import { tw } from "../../utils/common";
 import BerandaArButton from "./berandaar-button";
 import VidoFootageBogor from "../../assets/video-footage-bogor-free-licence.mp4";
+import IconMarker from "../../assets/icon-marker.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const BerandaArSection = () => {
 	return (
@@ -11,7 +13,13 @@ const BerandaArSection = () => {
 						Go to Augmentasi Reality Location Based Tugu Kujang Bogor
 					</h1>
 				</div>
-				<div className="flex justify-center w-full">
+				<div className="relative flex flex-col items-center justify-center w-full ">
+					<LazyLoadImage
+						src={IconMarker}
+						loading="lazy"
+						width="80"
+						className="relative z-20 top-24 animate-bounce"
+					/>
 					<BerandaArButton />
 				</div>
 			</div>

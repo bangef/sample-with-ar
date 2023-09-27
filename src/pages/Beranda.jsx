@@ -11,9 +11,9 @@ function Beranda() {
 	}, []);
 	return (
 		<Layout>
-			<BerandaSection dataContent={{ reverse: true }} />
+			<BerandaSection dataContent={CONTENT.beranda.data[0]} />
 			<BerandaSection
-				dataContent={{ reverse: false }}
+				dataContent={CONTENT.beranda.data[1]}
 				className="overflow-x-hidden bg-primary150"
 			/>
 			<BerandaArSection />

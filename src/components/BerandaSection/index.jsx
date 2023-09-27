@@ -15,7 +15,7 @@ const BerandaSection = (props) => {
 		>
 			<div className="w-full max-w-2xl sm:w-1/2 md:1/2">
 				<LazyLoadImage
-					src="https://picsum.photos/200/200.webp"
+					src={props.dataContent.image}
 					alt="test"
 					width={639}
 					height={639}
@@ -24,20 +24,17 @@ const BerandaSection = (props) => {
 			</div>
 			<div className="px-4 py-8 sm:py-10 xl:py-[100px] w-full max-w-3xl relative ">
 				<div className="relative z-10">
-					<p className="mb-2 text-sm font-thin text-white">Lorem, ipsum dolor.</p>
+					<p className="mb-2 text-sm font-thin text-white">
+						{props.dataContent.title}
+					</p>
 					<h1 className="mb-2 text-5xl font-bold leading-[3.5rem] text-white">
-						Lorem ipsum dolor sit.
+						{props.dataContent.title}
 					</h1>
-					<p className="mb-2 text-2xl font-thin text-secondary50">Lorem, ipsum.</p>
+					<p className="mb-2 text-2xl font-thin text-secondary50">
+						{props.dataContent.title}
+					</p>
 					<p className="mb-2 text-base font-thin text-white">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, quaerat?
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nulla, quae
-						similique atque quidem aliquid, voluptates dignissimos inventore odit
-						doloremque saepe molestiae eveniet, delectus consequatur debitis illo
-						sunt. Quibusdam vel eos perferendis harum sapiente suscipit repellat
-						officiis perspiciatis repudiandae cumque asperiores esse id facere hic,
-						porro cupiditate possimus vitae! Enim commodi voluptatibus numquam illo
-						accusantium quod quas reiciendis culpa aperiam.
+						{props.dataContent.desc}
 					</p>
 				</div>
 				<LazyLoadImage

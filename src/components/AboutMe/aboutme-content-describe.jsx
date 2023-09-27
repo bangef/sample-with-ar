@@ -3,23 +3,18 @@ import { PropTypes } from "prop-types";
 
 const AboutmeContentDescribe = (props) => (
 	<div className="sm:w-1/2">
-		{/* Jabatan: Dosen Pembimbing 1 */}
 		<p className="mb-2 text-sm font-thin text-white">
 			{props.content.jabatan || `label_jabatan`}
 		</p>
-		{/* Nama: Tifani Nabarian S.Kom, M.Kom */}
 		<h1 className="mb-2 text-5xl font-bold text-white">
 			{props.content.nama || "label_nama"}
 		</h1>
-		{/* Jabatan2: Dosen Kaprodi */}
 		<p className="mb-2 text-2xl font-thin text-secondary50">
 			{props.content.jabatan2 || "label_jabatan_2"}
 		</p>
-		{/* Deskripsi: Lorem.... */}
 		<p className="mb-2 text-base font-thin text-white">
 			{props.content.deskripsi || "label_deskripsi"}
 		</p>
-		{/* Pengalaman/reward: Dosen Ahli kebidangan...*/}
 		<ul className="text-base font-semibold text-white list-image-checkmark ps-5">
 			{props.content.pengalaman
 				? props.content.pengalaman.map((e, i) => {

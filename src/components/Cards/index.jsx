@@ -7,7 +7,7 @@ const Cards = () => {
 			<div className="w-full max-w-3xl p-4 m-auto">
 				<div className="mb-4">
 					<h1 className="font-bold text-white text-md font-poppins sm:text-xl md:text-2xl">
-						4 Wahana tersedia disekitar Tugu Kujang, Bogor
+						{CONTENT.infowisata.data.length} tempat di Kawasan Tugu Kujang, Bogor.
 					</h1>
 				</div>
 				<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
