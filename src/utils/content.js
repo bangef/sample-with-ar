@@ -6,8 +6,8 @@ import SosmedYt from "../assets/sosmed-youtube.svg";
  * CONTENT.aboutme.data.dataImage: apabila ingin masukan dari lokal di import terlebih dahulu.
  */
 const CONTENT = {
-	title: "LBAR - Tugu Kujang Bogor",
-	arlink: "https://facebook.com/ficrihnp",
+	title: "ARLB - Tugu Kujang Bogor",
+	arlink: "https://bangef.github.io/testing-arjs/",
 	header: {
 		headerMenu: [
 			{
@@ -423,7 +423,7 @@ const CONTENT = {
 				elem: SosmedYt,
 			},
 		],
-		copyrightLabel: `Copyright ${new Date().getFullYear()} @ LBAR - Tugu Kujang Bogor, All Right Reserved`,
+		copyrightLabel: `Copyright ${new Date().getFullYear()} @ ARLB - Tugu Kujang Bogor, All Right Reserved`,
 	},
 };
 export default CONTENT;
