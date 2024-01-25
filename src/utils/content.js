@@ -50,58 +50,58 @@ const CONTENT = {
 	},
 	infowisata: {
 		data: [
-			{
-				poster:
-					"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1079,h_690/w_66,x_12,y_12,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/mey1ee2nmi7khfynyy7v/TiketMasukKebunRayaBogor.webp",
-				slug: "kebun-raya-bogor",
-				nama: "Kebun Raya Bogor",
-				alamat: "Kec. Bogor Tengah",
-				desc:
-					"Kebun Raya Bogor, terletak di Bogor, Indonesia, adalah taman botani yang luas dengan koleksi tumbuhan eksotis dan langka. Tempat ini populer di kalangan wisatawan dan berperan penting dalam pelestarian dan penelitian tumbuhan.",
-				ulasan: [
-					{
-						title: "Rizka Alifah",
-						desc: `Adem, teduh, pepohonan masih rindang, cuma banyak police line karena ada banyak pohon tuaa. Air di toiletnya dingin banget. Penunjuk jalannya masih kurang banyak menurutku, semoga nanti lebih di perbanyak dan diperjelas lagi. Apalagi utk pintu exit pejalan kaki. Terima kasih.`,
-						nilai: 4,
-					},
-					{
-						title: "Diah Niken",
-						desc:
-							"Hutan kota yang sangat terawat, dengan koleksi pepohonan yang sangat lengkap, tempat yang sangat nyaman untuk piknik bersama keluarga, berwisata, ataupun berolahraga. Di dalam kebun raya ada restaurant yang indah dengan menu menu yang memanjakan lidah. Kalau kita berputar, tampak pula istana Bogor indah, dengan koleksi hewan rusa nya😍😍😍",
-						nilai: 5,
-					},
-					{
-						title: "Irfan Sasangko",
-						desc:
-							"Kondisi weekend... Terutama hari minggu cukup ramai, petugas kebersihannya cukup cekatan jika ada pengunjung yg dengan sengaja meninggalkan sampah di area piknik... 👍 …",
-						nilai: 5,
-					},
-					{
-						title: "Rika Agustina",
-						desc:
-							"adem rindang dan luas banget, jadi kalo mau keliling harus sewa skuter listrik atau lainnya biar makin seru dan ga cape jalan kaki, tapi pas mau sewa sekuter nya itu antri banget harus waiting list. untuk fasilitas musholah nya ada tapi wc nya kurang bersih.",
-						nilai: 5,
-					},
-				],
-				coor: [-6.5973624487061775, 106.79955906666069],
-				jamOprasional: [
-					{ hari: "Senin", jam: "08:00 - 16:00" },
-					{ hari: "Selasa", jam: "08:00 - 16:00" },
-					{ hari: "Rabu", jam: "08:00 - 16:00" },
-					{ hari: "Kamis", jam: "08:00 - 16:00" },
-					{ hari: "Jumat", jam: "08:00 - 16:00" },
-					{ hari: "Sabtu", jam: "08:00 - 16:00" },
-					{ hari: "Minggu", jam: "08:00 - 16:00" },
-				],
-				fasilitas: [
-					"toilet",
-					"trash",
-					"difable",
-					"greenhouse",
-					"mosque",
-					"foodcourt",
-				],
-			},
+			// {
+			// 	poster:
+			// 		"https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1079,h_690/w_66,x_12,y_12,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/mey1ee2nmi7khfynyy7v/TiketMasukKebunRayaBogor.webp",
+			// 	slug: "kebun-raya-bogor",
+			// 	nama: "Kebun Raya Bogor",
+			// 	alamat: "Kec. Bogor Tengah",
+			// 	desc:
+			// 		"Kebun Raya Bogor, terletak di Bogor, Indonesia, adalah taman botani yang luas dengan koleksi tumbuhan eksotis dan langka. Tempat ini populer di kalangan wisatawan dan berperan penting dalam pelestarian dan penelitian tumbuhan.",
+			// 	ulasan: [
+			// 		{
+			// 			title: "Rizka Alifah",
+			// 			desc: `Adem, teduh, pepohonan masih rindang, cuma banyak police line karena ada banyak pohon tuaa. Air di toiletnya dingin banget. Penunjuk jalannya masih kurang banyak menurutku, semoga nanti lebih di perbanyak dan diperjelas lagi. Apalagi utk pintu exit pejalan kaki. Terima kasih.`,
+			// 			nilai: 4,
+			// 		},
+			// 		{
+			// 			title: "Diah Niken",
+			// 			desc:
+			// 				"Hutan kota yang sangat terawat, dengan koleksi pepohonan yang sangat lengkap, tempat yang sangat nyaman untuk piknik bersama keluarga, berwisata, ataupun berolahraga. Di dalam kebun raya ada restaurant yang indah dengan menu menu yang memanjakan lidah. Kalau kita berputar, tampak pula istana Bogor indah, dengan koleksi hewan rusa nya😍😍😍",
+			// 			nilai: 5,
+			// 		},
+			// 		{
+			// 			title: "Irfan Sasangko",
+			// 			desc:
+			// 				"Kondisi weekend... Terutama hari minggu cukup ramai, petugas kebersihannya cukup cekatan jika ada pengunjung yg dengan sengaja meninggalkan sampah di area piknik... 👍 …",
+			// 			nilai: 5,
+			// 		},
+			// 		{
+			// 			title: "Rika Agustina",
+			// 			desc:
+			// 				"adem rindang dan luas banget, jadi kalo mau keliling harus sewa skuter listrik atau lainnya biar makin seru dan ga cape jalan kaki, tapi pas mau sewa sekuter nya itu antri banget harus waiting list. untuk fasilitas musholah nya ada tapi wc nya kurang bersih.",
+			// 			nilai: 5,
+			// 		},
+			// 	],
+			// 	coor: [-6.5973624487061775, 106.79955906666069],
+			// 	jamOprasional: [
+			// 		{ hari: "Senin", jam: "08:00 - 16:00" },
+			// 		{ hari: "Selasa", jam: "08:00 - 16:00" },
+			// 		{ hari: "Rabu", jam: "08:00 - 16:00" },
+			// 		{ hari: "Kamis", jam: "08:00 - 16:00" },
+			// 		{ hari: "Jumat", jam: "08:00 - 16:00" },
+			// 		{ hari: "Sabtu", jam: "08:00 - 16:00" },
+			// 		{ hari: "Minggu", jam: "08:00 - 16:00" },
+			// 	],
+			// 	fasilitas: [
+			// 		"toilet",
+			// 		"trash",
+			// 		"difable",
+			// 		"greenhouse",
+			// 		"mosque",
+			// 		"foodcourt",
+			// 	],
+			// },
 			{
 				poster:
 					"https://asset-2.tstatic.net/bogor/foto/bank/images/Kondisi-arus-lalu-lintas-Kota-Bogor-Minggu-152022.jpg",
@@ -154,53 +154,53 @@ const CONTENT = {
 				],
 				coor: [-6.601180586224578, 106.80509525758612],
 			},
-			{
-				poster:
-					"https://asset-2.tstatic.net/bogor/foto/bank/images/boker-tetap-menyala.jpg",
-				slug: "mall-botani-square",
-				nama: "Mall Botani Square",
-				alamat: "Jl. Raya Pajajaran No.40",
-				desc:
-					"Mall Botani Square adalah pusat perbelanjaan yang terletak di Kota Bogor, Jawa Barat, Indonesia. Mall ini menawarkan berbagai toko, restoran, dan pusat hiburan untuk pengunjungnya. Selain itu, Botani Square juga dikenal karena berlokasi dekat dengan Kebun Raya Bogor, sehingga sering menjadi destinasi populer bagi wisatawan yang mengunjungi kota ini.",
-				ulasan: [
-					{
-						title: "Ulasan Pertama",
-						desc:
-							"Deskripsi ulasan pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-						nilai: 3,
-					},
-					{
-						title: "Ulasan Kedua",
-						desc:
-							"Deskripsi ulasan kedua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-						nilai: 5,
-					},
-					{
-						title: "Ulasan Ketiga",
-						desc:
-							"Deskripsi ulasan ketiga. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-						nilai: 2,
-					},
-				],
-				coor: [-6.601393740337289, 106.8068655154671],
-				jamOprasional: [
-					{ hari: "Senin", jam: "10:00 - 22:00" },
-					{ hari: "Selasa", jam: "10:00 - 22:00" },
-					{ hari: "Rabu", jam: "10:00 - 22:00" },
-					{ hari: "Kamis", jam: "10:00 - 22:00" },
-					{ hari: "Jumat", jam: "10:00 - 22:00" },
-					{ hari: "Sabtu", jam: "10:00 - 22:00" },
-					{ hari: "Minggu", jam: "10:00 - 22:00" },
-				],
-				fasilitas: [
-					"toilet",
-					"trash",
-					"difable",
-					"greenhouse",
-					"mosque",
-					"foodcourt",
-				],
-			},
+			// {
+			// 	poster:
+			// 		"https://asset-2.tstatic.net/bogor/foto/bank/images/boker-tetap-menyala.jpg",
+			// 	slug: "mall-botani-square",
+			// 	nama: "Mall Botani Square",
+			// 	alamat: "Jl. Raya Pajajaran No.40",
+			// 	desc:
+			// 		"Mall Botani Square adalah pusat perbelanjaan yang terletak di Kota Bogor, Jawa Barat, Indonesia. Mall ini menawarkan berbagai toko, restoran, dan pusat hiburan untuk pengunjungnya. Selain itu, Botani Square juga dikenal karena berlokasi dekat dengan Kebun Raya Bogor, sehingga sering menjadi destinasi populer bagi wisatawan yang mengunjungi kota ini.",
+			// 	ulasan: [
+			// 		{
+			// 			title: "Ulasan Pertama",
+			// 			desc:
+			// 				"Deskripsi ulasan pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			// 			nilai: 3,
+			// 		},
+			// 		{
+			// 			title: "Ulasan Kedua",
+			// 			desc:
+			// 				"Deskripsi ulasan kedua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			// 			nilai: 5,
+			// 		},
+			// 		{
+			// 			title: "Ulasan Ketiga",
+			// 			desc:
+			// 				"Deskripsi ulasan ketiga. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			// 			nilai: 2,
+			// 		},
+			// 	],
+			// 	coor: [-6.601393740337289, 106.8068655154671],
+			// 	jamOprasional: [
+			// 		{ hari: "Senin", jam: "10:00 - 22:00" },
+			// 		{ hari: "Selasa", jam: "10:00 - 22:00" },
+			// 		{ hari: "Rabu", jam: "10:00 - 22:00" },
+			// 		{ hari: "Kamis", jam: "10:00 - 22:00" },
+			// 		{ hari: "Jumat", jam: "10:00 - 22:00" },
+			// 		{ hari: "Sabtu", jam: "10:00 - 22:00" },
+			// 		{ hari: "Minggu", jam: "10:00 - 22:00" },
+			// 	],
+			// 	fasilitas: [
+			// 		"toilet",
+			// 		"trash",
+			// 		"difable",
+			// 		"greenhouse",
+			// 		"mosque",
+			// 		"foodcourt",
+			// 	],
+			// },
 			{
 				poster:
 					"https://kebudayaan.kemdikbud.go.id/bpcbbanten/wp-content/uploads/sites/35/2021/03/museum-zoologi.jpeg",
