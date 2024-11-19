@@ -35,16 +35,14 @@ const CONTENT = {
 					"https://static.republika.co.id/uploads/images/inpicture_slide/sejumlah-peserta-menari-secara-kolosal-di-depan-tugu-kujang_220620173758-827.jpg",
 				reverse: true,
 				title: "Kawasan Tugu Kujang Bogor",
-				desc:
-					"Kawasan Tugu Kujang di Bogor adalah sebuah tempat yang menggabungkan keindahan alam, sejarah, dan budaya yang kaya. Pusat perhatian di kawasan ini adalah Bundaran Tugu Kujang yang mengagumkan, dengan patung kujang yang menjadi simbol budaya Sunda yang mendalam. Tugu ini bukan hanya sebuah monumen, tetapi juga titik pertemuan bagi warga setempat dan wisatawan yang ingin merasakan pesona Bogor. Tugu Kujang dikelilingi oleh taman yang hijau dan terawat dengan baik, menciptakan lingkungan yang nyaman untuk bersantai, berjalan-jalan, atau bahkan piknik bersama keluarga. Selain itu, di sekitar kawasan ini terdapat makam yang konon merupakan makam Pangeran Kornel, menyiratkan keberadaan sejarah yang mendalam.",
+				desc: "Kawasan Tugu Kujang di Bogor adalah sebuah tempat yang menggabungkan keindahan alam, sejarah, dan budaya yang kaya. Pusat perhatian di kawasan ini adalah Bundaran Tugu Kujang yang mengagumkan, dengan patung kujang yang menjadi simbol budaya Sunda yang mendalam. Tugu ini bukan hanya sebuah monumen, tetapi juga titik pertemuan bagi warga setempat dan wisatawan yang ingin merasakan pesona Bogor. Tugu Kujang dikelilingi oleh taman yang hijau dan terawat dengan baik, menciptakan lingkungan yang nyaman untuk bersantai, berjalan-jalan, atau bahkan piknik bersama keluarga. Selain itu, di sekitar kawasan ini terdapat makam yang konon merupakan makam Pangeran Kornel, menyiratkan keberadaan sejarah yang mendalam.",
 			},
 			{
 				image:
 					"https://miro.medium.com/v2/resize:fit:1400/1*IymrgzbXR9j7TCqT3GSLNg.png",
 				reverse: false,
 				title: "Augmentasi Realitas Berbasis Lokasi",
-				desc:
-					"Augmentasi Realitas Berbasis Lokasi adalah teknologi yang menggabungkan informasi digital dengan lingkungan fisik di sekitar pengguna menggunakan perangkat berbasis lokasi seperti smartphone atau kacamata pintar. Ini memungkinkan pengguna untuk melihat dan berinteraksi dengan objek-objek digital yang disisipkan ke dalam dunia nyata mereka, berdasarkan data lokasi mereka. Teknologi Augmentasi Realitas Berbasis Lokasi memanfaatkan sensor GPS atau sensor lainnya pada perangkat pengguna untuk menentukan posisi dan orientasi mereka dalam dunia nyata. Kemudian, dengan bantuan kamera perangkat tersebut, objek-objek virtual, seperti label, petunjuk arah, atau informasi tambahan, dapat ditampilkan dalam tampilan pengguna secara real-time sesuai dengan lokasi dan sudut pandang mereka.",
+				desc: "Augmentasi Realitas Berbasis Lokasi adalah teknologi yang menggabungkan informasi digital dengan lingkungan fisik di sekitar pengguna menggunakan perangkat berbasis lokasi seperti smartphone atau kacamata pintar. Ini memungkinkan pengguna untuk melihat dan berinteraksi dengan objek-objek digital yang disisipkan ke dalam dunia nyata mereka, berdasarkan data lokasi mereka. Teknologi Augmentasi Realitas Berbasis Lokasi memanfaatkan sensor GPS atau sensor lainnya pada perangkat pengguna untuk menentukan posisi dan orientasi mereka dalam dunia nyata. Kemudian, dengan bantuan kamera perangkat tersebut, objek-objek virtual, seperti label, petunjuk arah, atau informasi tambahan, dapat ditampilkan dalam tampilan pengguna secara real-time sesuai dengan lokasi dan sudut pandang mereka.",
 			},
 		],
 	},
@@ -108,8 +106,7 @@ const CONTENT = {
 				slug: "bds-tugu-kujang",
 				nama: "BDS. Tugu Kujang",
 				alamat: "Kec. Bogor Tengah, Kota Bogor",
-				desc:
-					"Bundaran Tugu Kujang adalah landmark di Kota Bogor, Jawa Barat, yang menampilkan patung kujang, senjata tradisional Sunda. Ini adalah simbol budaya dan kebanggaan daerah tersebut, sering digunakan untuk berfoto dan berkumpul.",
+				desc: "Bundaran Tugu Kujang adalah landmark di Kota Bogor, Jawa Barat, yang menampilkan patung kujang, senjata tradisional Sunda. Ini adalah simbol budaya dan kebanggaan daerah tersebut, sering digunakan untuk berfoto dan berkumpul.",
 				ulasan: [
 					{
 						title: "Ridwan Tardini",
@@ -125,25 +122,21 @@ const CONTENT = {
 				slug: "tugu-kujang-bogor",
 				nama: "Tugu Kujang Bogor",
 				alamat: "Jl. Raya Pajajaran No. 1 A",
-				desc:
-					"Tugu Kujang Bogor adalah landmark yang ikonik dan merupakan lambang kebanggaan kota Bogor, Jawa Barat, dengan patung kujang yang memiliki bentuk mirip sabit dengan ujung yang melengkung. Tugu ini menjadi tempat populer untuk berfoto dan menggambarkan warisan budaya Sunda yang kaya.",
+				desc: "Tugu Kujang Bogor adalah landmark yang ikonik dan merupakan lambang kebanggaan kota Bogor, Jawa Barat, dengan patung kujang yang memiliki bentuk mirip sabit dengan ujung yang melengkung. Tugu ini menjadi tempat populer untuk berfoto dan menggambarkan warisan budaya Sunda yang kaya.",
 				ulasan: [
 					{
 						title: "M. Al Durra",
-						desc:
-							"Lokasi yang bagus untuk jalan jalan biasa ataupun joging, sangat strategis di tengah kota Bogor, banyak kendaraan terkadang suka macet, dekat sekali dengan kebun raya Bogor, view nya juga bagus bagus, asri, adem, ga terlalu panas karena banyak pepohonan dan banyak jajanan serta makanan ringan. Bagi warga luar kota Bogor wajib banget sih kesini cobain deh rasanya mantap.",
+						desc: "Lokasi yang bagus untuk jalan jalan biasa ataupun joging, sangat strategis di tengah kota Bogor, banyak kendaraan terkadang suka macet, dekat sekali dengan kebun raya Bogor, view nya juga bagus bagus, asri, adem, ga terlalu panas karena banyak pepohonan dan banyak jajanan serta makanan ringan. Bagi warga luar kota Bogor wajib banget sih kesini cobain deh rasanya mantap.",
 						nilai: 2,
 					},
 					{
 						title: "Erick",
-						desc:
-							"Lokasi yang bagus untuk jalan jalan biasa ataupun joging, sangat strategis di tengah kota Bogor, banyak kendaraan terkadang suka macet, dekat sekali dengan kebun raya Bogor, view nya juga bagus bagus, asri, adem, ga terlalu panas karena banyak pepohonan dan banyak jajanan serta makanan ringan. Bagi warga luar kota Bogor wajib banget sih kesini cobain deh rasanya mantap.",
+						desc: "Lokasi yang bagus untuk jalan jalan biasa ataupun joging, sangat strategis di tengah kota Bogor, banyak kendaraan terkadang suka macet, dekat sekali dengan kebun raya Bogor, view nya juga bagus bagus, asri, adem, ga terlalu panas karena banyak pepohonan dan banyak jajanan serta makanan ringan. Bagi warga luar kota Bogor wajib banget sih kesini cobain deh rasanya mantap.",
 						nilai: 3,
 					},
 					{
 						title: "t wink",
-						desc:
-							"Kok gak ada bosannya ya😊😁😄 Tiap bersepeda ke area Bogor diusahakan mampir ke mari trus foto dekh, bahkan digunakan sebagai area titik kumpul yang bersepeda",
+						desc: "Kok gak ada bosannya ya😊😁😄 Tiap bersepeda ke area Bogor diusahakan mampir ke mari trus foto dekh, bahkan digunakan sebagai area titik kumpul yang bersepeda",
 						nilai: 3,
 					},
 					{
@@ -203,29 +196,25 @@ const CONTENT = {
 			// },
 			{
 				poster:
-					"https://kebudayaan.kemdikbud.go.id/bpcbbanten/wp-content/uploads/sites/35/2021/03/museum-zoologi.jpeg",
+					"https://firebasestorage.googleapis.com/v0/b/krmos-visitor-sandbox.appspot.com/o/region%2Fbogor%2Fmuseum%2Fzoologi%2FMuseum%20Zoologi%20-4.jpg?alt=media&token=4f7898f2-80f6-411f-b58d-bab3c5730bdb",
 				slug: "museum-zoologi",
 				nama: "Museum Zoologi",
 				alamat: "Jl. Ir. H. Juanda No.9",
-				desc:
-					"Museum Zoologi adalah institusi yang berfokus pada koleksi, penelitian, dan pameran berbagai spesimen hewan. Museum ini memungkinkan pengunjung untuk memahami dan menghargai keanekaragaman hayati dunia, dengan menampilkan spesimen kulit, tengkorak, tulang, serta pameran interaktif tentang perilaku dan lingkungan hewan. Museum Zoologi seringkali berperan penting dalam penelitian ilmiah, pendidikan, dan pelestarian satwa liar.",
+				desc: "Museum Zoologi adalah institusi yang berfokus pada koleksi, penelitian, dan pameran berbagai spesimen hewan. Museum ini memungkinkan pengunjung untuk memahami dan menghargai keanekaragaman hayati dunia, dengan menampilkan spesimen kulit, tengkorak, tulang, serta pameran interaktif tentang perilaku dan lingkungan hewan. Museum Zoologi seringkali berperan penting dalam penelitian ilmiah, pendidikan, dan pelestarian satwa liar.",
 				ulasan: [
 					{
 						title: "Ulasan Pertama",
-						desc:
-							"Deskripsi ulasan pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+						desc: "Deskripsi ulasan pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 						nilai: 4,
 					},
 					{
 						title: "Ulasan Kedua",
-						desc:
-							"Deskripsi ulasan kedua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+						desc: "Deskripsi ulasan kedua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 						nilai: 3,
 					},
 					{
 						title: "Ulasan Ketiga",
-						desc:
-							"Deskripsi ulasan ketiga. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+						desc: "Deskripsi ulasan ketiga. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 						nilai: 1,
 					},
 				],
@@ -252,7 +241,7 @@ const CONTENT = {
 	},
 	galeriPhotos: [
 		{
-			src: "https://picsum.photos/seed/flowers/300/400.webp",
+			src: "https://i.pinimg.com/736x/5c/c1/26/5cc12649b0c266a5d050d92e2185486e.jpg",
 			width: 300,
 			height: 400,
 		},
@@ -423,7 +412,7 @@ const CONTENT = {
 				elem: SosmedYt,
 			},
 		],
-		copyrightLabel: `Copyright ${new Date().getFullYear()} @ ARLB - Tugu Kujang Bogor, All Right Reserved`,
+		copyrightLabel: `Copyright ${new Date().getFullYear()} @ ARLB Project, All Right Reserved`,
 	},
 };
 export default CONTENT;

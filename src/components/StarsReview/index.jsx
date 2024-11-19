@@ -26,7 +26,11 @@ const StarsReview = (props) => {
 
 	return (
 		<div
-			className={tw("flex", props.notrecap ? "items-center" : "", props.className)}
+			className={tw(
+				"flex",
+				props.notrecap ? "items-center" : "",
+				props.className
+			)}
 		>
 			<div className="flex gap-1 mr-2">
 				{stars &&
@@ -53,7 +57,7 @@ const StarsReview = (props) => {
 					)}
 			</div>
 			{!props.notrecap && (
-				<span className="block text-sm font-thin text-gray-200 md:text-[12px]">
+				<span className="block text-sm font-thin text-gray-200 md:text-[12px] bg-dark-500">
 					({props.ulasan.length} Ulasan)
 				</span>
 			)}
