@@ -18,8 +18,14 @@ const DetailInfoWisataRatting = (props) => {
 				{props.ulasan &&
 					props.ulasan.map((e) => (
 						<div key={nanoid(5)}>
-							<StarsReview notrecap={true} nilaiBintang={e.nilai} className="mb-2" />
-							<h1 className="text-lg font-semibold text-secondary50">{e.title}</h1>
+							<StarsReview
+								notrecap={true}
+								nilaiBintang={e.nilai}
+								className="mb-2"
+							/>
+							<h1 className="text-lg font-semibold text-secondary50">
+								{e.title}
+							</h1>
 							<p className="text-base font-thin text-white">{e.desc}</p>
 						</div>
 					))}

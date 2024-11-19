@@ -24,10 +24,9 @@ const Header = () => {
 								"hover:text-secondary50 hover:ease-linear"
 							)}
 						>
-							Logo
+							<img src="/default/logo/logo2.svg" alt="logo" width="100" />
 						</Link>
 					</div>
-					{/* btn-humburger */}
 					<HeaderHumbBtn isOpen={isOpen} setIsOpen={setIsOpen} />
 				</div>
 				{/* Menu */}

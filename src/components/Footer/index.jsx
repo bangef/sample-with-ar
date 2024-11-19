@@ -15,15 +15,13 @@ function Footer() {
 			>
 				{/* logo dan caption */}
 				<div className="max-w-md mb-4">
-					{/* logo */}
-					<h1 className={tw("text-4xl text-center", "mb-4", "md:text-start")}>
-						Logo
-					</h1>
+					<div className="flex justify-center item-self-center mb-2 md:justify-start">
+						<img src="/default/logo/logo3.svg" alt="logo" width="100" />
+					</div>
 					{/* caption */}
 					<p className={tw("text-center font-thin mb-4", "md:text-start")}>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum vero
-						aperiam praesentium id adipisci. Sunt sapiente quo corporis voluptatum
-						recusandae!
+						Hidupkan Bogor dalam Dimensi Baru – Jelajahi Keindahan Kota Hujan
+						dengan Augmented Reality 3D
 					</p>
 					{/* Social media */}
 					<FooterSocialMedia className="mb-4 " />

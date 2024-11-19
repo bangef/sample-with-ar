@@ -11,7 +11,7 @@ const DetailInfoWisata = (props) => {
 		<div className="w-full px-4 py-8 bg-primary150 font-poppins">
 			<div className="max-w-3xl m-auto">
 				<div className={tw("mb-12", "sm:flex")}>
-					<div className="flex flex-col items-center justify-center w-full gap-4 mb-6 sm:items-start sm:justify-start sm:mr-4">
+					<div className="flex flex-col items-center justify-center w-full gap-4 mb-6 sm:items-center sm:justify-center sm:mr-4">
 						<h1 className="text-2xl font-bold text-center text-white sm:text-3xl">
 							{props.dataDetail.nama}
 						</h1>
